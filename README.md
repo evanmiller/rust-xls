@@ -4,9 +4,6 @@ Read Excel files from Rust
 Example program:
 
 ```
-#![feature(libc)]
-#![feature(exit_status)]
-extern crate libc;
 extern crate xls;
 
 use std::env;
@@ -40,7 +37,7 @@ fn main() {
         }
     } else {
         println!("Usage: {} <filename>", arg_vec[0]);
-        std::env::set_exit_status(1);
+        std::process::exit(1);
     };
 }
 ```
