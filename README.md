@@ -1,5 +1,5 @@
 # rust-xls
-Read Excel files from Rust
+Read Excel files from Rust. Requires **[libxls](http://libxls.sourceforge.net)**.
 
 Example program:
 
