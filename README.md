@@ -3,7 +3,7 @@ Read Excel files from Rust. Requires **[libxls](http://libxls.sourceforge.net)**
 
 Example program:
 
-```
+```rust
 extern crate xls;
 
 use std::env;
